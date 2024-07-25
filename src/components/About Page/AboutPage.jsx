@@ -2,7 +2,7 @@ import React from "react";
 import { motion as m } from "framer-motion";
 import { useCursorContext } from "../../context/CursorContext";
 import { Link } from "react-router-dom";
-import myCV from "../../CV/coming_soon_landscape.jpg";
+import myCV from "../../CV/hemantBatra.pdf";
 
 const AboutPage = () => {
   const { mouseOverEvent, mouseOutEvent } = useCursorContext();
@@ -23,7 +23,7 @@ const AboutPage = () => {
             About
           </m.div>
         </div>
-        <div className="z-40 relative w-full bg-[#ece7e1]">
+        <div className="z-40 relative w-full bg-white">
           <div className="w-full md:w-3/5 flex flex-col justify-center items-start gap-8">
             <div className="Avegas-Royale-Regular ml-[5%] text-[5vw] md:text-[2.5vw] leading-6 sm350:leading-8 sm500:leading-10 xl:leading-[3rem]">
               I'm Hemant Batra. A Full Stack developer and DSA practitioner.
@@ -48,8 +48,8 @@ const AboutPage = () => {
               skills
             </div>
             <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7">
-              React / JavaScript / Github / Git / Tailwind / CSS / HTML /
-              Java / NodeJS / MongoDB / ExpressJS / C++ 
+              React / JavaScript / Github / Git / Tailwind / CSS3 / HTML5 /
+              Java / NodeJS / MongoDB / ExpressJS / C++ / Bootstrap / MUI / Postman / Insomnia 
             </div>
             <a
               onMouseOver={mouseOverEvent}
@@ -58,7 +58,7 @@ const AboutPage = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="w-auto py-2 px-10 bg-[#1a1818] text-[#ece7e1] Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out">
+              <div className="w-auto py-2 px-10 bg-black text-white Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out">
                 My CV
               </div>
             </a>
@@ -76,7 +76,7 @@ const AboutPage = () => {
               to="mailto:hemantbatra567@gmail.com"
               onMouseOver={mouseOverEvent}
               onMouseOut={mouseOutEvent}
-              className="w-auto py-2 px-10 bg-[#1a1818] text-[#ece7e1] Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out"
+              className="w-auto py-2 px-10 bg-black text-white Avegas-Royale-Regular text-[3vw] md:text-[1.5vw] text-center rounded-full hover:opacity-50 duration-300 ease-in-out"
             >
               Contact Me
             </Link>

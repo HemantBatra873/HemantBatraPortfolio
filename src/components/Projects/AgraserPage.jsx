@@ -8,9 +8,9 @@ const AgraserPage = () => {
 
   return (
     <>
-      <div className="bg-[#ece7e1] text-[#1a1818] w-full h-screen flex justify-center items-center -mb-72 md:-mb-20">
+      <div className="bg-white text-black w-full h-screen flex justify-center items-center -mb-72 md:-mb-20">
         {/* Title */}
-        <div className="relative z-50 w-full h-[15%] sm350:h-1/2 sm:h-[80%] md:h-[70%] flex justify-center items-end text-[#ece7e1]">
+        <div className="relative z-50 w-full h-[15%] sm350:h-1/2 sm:h-[80%] md:h-[70%] flex justify-center items-end text-white">
           <div className="w-full text-center overflow-hidden px-4 -mt-[5%]">
             <m.div
               initial={{ transform: "translateY(100%)" }}
@@ -22,12 +22,12 @@ const AgraserPage = () => {
               }}
               className="Avegas-Royale-Regular text-[13vw] md:text-[11vw] flex justify-center items-center"
             >
-              Agraser
+              Agraser AI
             </m.div>
           </div>
         </div>
       </div>
-      <div className="bg-[#ece7e1] text-[#1a1818] w-full h-full flex flex-col justify-center items-center gap-16 sm350:gap-24 xl1100:gap-32 xxl:gap-48 mb-20 px-8 mt-0 sm350:mt-48 sm:mt-80 md:mt-16 xl1100:mt-24 ">
+      <div className="bg-white text-black w-full h-full flex flex-col justify-center items-center gap-16 sm350:gap-24 xl1100:gap-32 xxl:gap-48 mb-20 px-8 mt-0 sm350:mt-48 sm:mt-80 md:mt-16 xl1100:mt-24 ">
         {/* About the project */}
         <div className="overflow-hidden w-full flex justify-center items-center text-center">
           <m.div
@@ -40,7 +40,7 @@ const AgraserPage = () => {
             }}
             className="w-[100%] sm500:w-[70%] md:w-[45%] Avegas-Royale-Regular text-[5vw] sm350:text-[4vw] sm500:text-[3.25vw] sm:text-[3vw] md:text-[2.5vw] leading-[120%]"
           >
-            Agraser is an api based mern stack AI assistant website .
+            Agraser is an API based MERN stack AI chat assistant .
           </m.div>
         </div>
         {/* Role / Responsibilities / GitHub / URL */}
@@ -50,7 +50,7 @@ const AgraserPage = () => {
               <div className="font-semibold underline underline-offset-4">
                 ROLE
               </div>
-              <div>Web Development</div>
+              <div>Web Developer</div>
             </div>
             <div className="w-1/2 flex flex-col gap-4">
               <div className="font-semibold underline underline-offset-4">
@@ -68,13 +68,13 @@ const AgraserPage = () => {
                 GitHub
               </div>
               <Link
-                to="https://github.com/HemantBatra873"
+                to="https://github.com/HemantBatra873/agraser_backend"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
-                className="hover:opacity-50 duration-300 ease-in-out"
+                className="hover:opacity-50 duration-300 ease-in-out "
               >
-                https://github.com/HemantBatra873
+                HemantBatra873/agraser
               </Link>
             </div>
             <div className="w-1/2 flex flex-col gap-4">
@@ -82,13 +82,13 @@ const AgraserPage = () => {
                 URL
               </div>
               <Link
-                to="https://github.com/HemantBatra873"
+                to="https://agraser.vercel.app/"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
                 className="hover:opacity-50 duration-300 ease-in-out"
               >
-                url will be added here soon
+                https://agraser.vercel.app/
               </Link>
             </div>
           </div>
@@ -96,7 +96,7 @@ const AgraserPage = () => {
         {/* First Mockup */}
         <div className="w-full sm500:w-[85%] md:w-[65%] h-[18.5rem] sm350:h-[20rem] sm500:h-[25rem] sm:h-[25rem] lg:h-[30rem] xl1100:h-[40rem] xxl:h-[50rem] rounded-[1vw] overflow-hidden">
           <img
-            src="./coming_soon_landscape.jpg"
+            src="./agraserMockup.png"
             alt=""
             className="w-full h-full object-cover animate-panImage2 hover:scale-150 sm500:hover:scale-125 duration-300 ease-in-out"
           />
@@ -107,13 +107,20 @@ const AgraserPage = () => {
             Challenge
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, aliquam!
+            Complex User Interaction: Needed to create an application that
+            provides insightful and accurate responses to user queries.
             <br />
             <br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, voluptatem.
+            Data Security: Ensuring that user data is secure and access is
+            restricted to authenticated users
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, saepe.
+            Cross-Device Compatibility: Developing a fully responsive design
+            that works seamlessly across desktops, tablets, and smartphones.
+            <br />
+            <br />
+            Scalability: Building a robust and scalable full-stack application
+            to handle growth and increasing user interactions.
           </div>
         </div>
         {/* Process */}
@@ -122,15 +129,24 @@ const AgraserPage = () => {
             Process
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, veritatis.
+            Leveraged Google Gemini AI to generate intelligent responses,
+            enhancing user engagement. Integrated the AI with the backend to
+            handle and process user queries efficiently.
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum vitae, quisquam ab 
-            officia tempore error quidem. Corporis, atque?
+            Implemented JSON Web Token (JWT) authentication to ensure secure
+            access. Used bcrypt for password encryption to protect user data.
             <br />
             <br />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste amet magnam suscipit sunt
-             sapiente aliquam alias praesentium aliquid?
+            Designed a fully responsive user interface with React. Ensured
+            consistent and smooth user experiences across all devices, including
+            desktops, tablets, and smartphones.
+            <br />
+            <br />
+            Utilized MongoDB for efficient and scalable data management.
+            Developed the backend with Express and Node.js for robust
+            server-side operations. Built the frontend with React, CSS3, HTML5,
+            and JavaScript for dynamic and interactive user interfaces.
           </div>
         </div>
         <div className="w-full sm350:w-[85%] md:w-[60%] xl1100:w-1/2 xl:w-[40%] flex flex-col gap-8">
@@ -138,11 +154,11 @@ const AgraserPage = () => {
             Outcome
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, esse?
+          Achieved high user engagement through insightful and accurate AI-generated responses.
+          Ensured user data protection and secure access with JWT authentication and bcrypt encryption.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae esse cum,
-             eaque incidunt nesciunt blanditiis?
+            Provided a consistent and smooth experience across all devices, enhancing accessibility and usability.
           </div>
         </div>
         {/* Check it out button */}
@@ -151,11 +167,11 @@ const AgraserPage = () => {
             Check it out.
           </div>
           <Link
-            to="https://github.com/HemantBatra873?tab=repositories"
+            to="https://agraser.vercel.app/"
             target="_blank"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
-            className="bg-[#1a1818] text-[#ece7e1] w-auto py-4 px-8 md:px-10 Avegas-Royale-Regular text-[2.5vw] md:text-[1vw] text-center rounded-full tracking-wider hover:opacity-50 duration-300 ease-in-out"
+            className="bg-black text-white w-auto py-4 px-8 md:px-10 Avegas-Royale-Regular text-[2.5vw] md:text-[1vw] text-center rounded-full tracking-wider hover:opacity-50 duration-300 ease-in-out"
           >
             Agraser
           </Link>

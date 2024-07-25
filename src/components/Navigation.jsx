@@ -12,7 +12,7 @@ const Navigation = () => {
     <div
       className={`${
         location.pathname === "/work" || location.pathname === "/contact"
-          ? "text-[#ece7e1]"
+          ? "text-white"
           : null
       } z-40 relative`}
     >
@@ -44,8 +44,8 @@ const Navigation = () => {
           <div
             className={`${
               location.pathname === "/work" || location.pathname === "/contact"
-                ? "bg-[#ece7e1]"
-                : "bg-[#1a1818]"
+                ? "bg-white"
+                : "bg-black"
             } w-0 sm350:w-12 sm500:w-24 md:w-[1px] h-[1px] md:h-24 -mt-1 md:mt-2 md:mb-20 opacity-75`}
           ></div>
           <div className="md:mb-16 md:pl-10 md:pr-16 md:-rotate-90 w-28 absolute right-8 md:right-auto md:top-auto md:bottom-5">

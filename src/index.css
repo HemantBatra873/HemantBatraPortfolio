@@ -56,22 +56,22 @@
 
 body {
   overflow-x: hidden;
-  background-color: #ece7e1;
-  color: #1a1818;
+  background-color: white;
+  color: black;
 }
 
 /* Highlighted / On Selection Styles */
 ::-moz-selection {
-  background: #1a1818;
-  color: #ece7e1;
+  background: black;
+  color: white;
 }
 ::-webkit-selection {
-  background: #1a1818;
-  color: #ece7e1;
+  background: black;
+  color: white;
 }
 ::selection {
-  background: #1a1818;
-  color: #ece7e1;
+  background: black;
+  color: white;
 }
 
 /* Cursor */

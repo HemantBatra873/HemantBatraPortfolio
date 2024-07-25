@@ -7,7 +7,7 @@ const WorkPage = () => {
   const { mouseOverEvent, mouseOutEvent } = useCursorContext();
 
   return (
-    <div className="bg-[#1a1818] text-[#ece7e1] w-full h-screen flex flex-col xl1100:flex-row pt-28 md:pt-60 xl1100:pt-0 justify-start xl1100:justify-between items-center gap-8 sm500:gap-12 md:gap-12 xl1100:gap-20 px-8 md:px-20">
+    <div className="bg-black text-white w-full h-screen flex flex-col xl1100:flex-row pt-28 md:pt-60 xl1100:pt-0 justify-start xl1100:justify-between items-center gap-8 sm500:gap-12 md:gap-12 xl1100:gap-20 px-8 md:px-20">
       <div className="w-full xl1100:w-[35%] h-auto xl1100:h-full flex justify-start md:justify-center xl1100:justify-end items-end xl1100:items-center">
         <div className="w-full sm350:w-3/4 h-auto flex flex-col justify-center items-start gap-4 mt-0 xl1100:mt-[50%]">
           <div className="overflow-hidden mb-2">
@@ -34,7 +34,7 @@ const WorkPage = () => {
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7"
             >
               This is showcase of my best work in a variaty of projects
-              including Micro-patronage website, E-Commerce Website and API
+              including Micro-patronage website, Real Estate website and API
               driven SaaS AI website.
             </m.div>
           </div>
@@ -67,23 +67,23 @@ const WorkPage = () => {
       >
         <div className="w-full md:w-3/4 xl1100:w-full flex flex-col justify-center items-start gap-8">
           <Link
-            to="/good-groceries"
-            title="Project One"
+            to="/gruham"
+            title="Gruham"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
             className="w-full md:w-[90%] flex flex-col gap-2 hover:opacity-50 duration-300 ease-in-out"
           >
             <div className="uppercase text-[12vw] sm500:text-[9vw] xl1100:text-[6vw] tracking-tighter">
               <div className="Avegas-Royale-Regular leading-[100%] pl-[5%]">
-                Good groceries
+                Gruham
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 md:gap-4 ml-[2%]">
-              <div className="w-2 h-[1px] bg-[#ece7e1]"></div>
+              <div className="w-2 h-[1px] bg-white"></div>
               <div className="text-[11px] md:text-xs font-medium uppercase">
-                e-commerce website
+                real estate website
               </div>
-              <div className="bg-[#ece7e1] text-[#1a1818] px-4 py-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
+              <div className="bg-white text-black px-4 py-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
                 new
               </div>
             </div>
@@ -101,12 +101,12 @@ const WorkPage = () => {
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 md:gap-4 ml-[2%]">
-              <div className="w-2 h-[1px] bg-[#ece7e1]"></div>
+              <div className="w-2 h-[1px] bg-white"></div>
               <div className="text-[11px] md:text-xs font-medium uppercase">
                 micro-patronage website
               </div>
-              <div className="bg-[#ece7e1] text-[#1a1818] px-4 pt-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
-                new
+              <div className="bg-white text-black px-4 pt-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
+                upcoming
               </div>
             </div>
           </Link>
@@ -123,7 +123,7 @@ const WorkPage = () => {
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 md:gap-4 ml-[2%]">
-              <div className="w-2 h-[1px] bg-[#ece7e1]"></div>
+              <div className="w-2 h-[1px] bg-white"></div>
               <div className="text-[11px] md:text-xs font-medium uppercase">
                  Api driven SaaS website
               </div>

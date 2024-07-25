@@ -7,7 +7,7 @@ const ContactPage = () => {
   const { mouseOverEvent, mouseOutEvent } = useCursorContext();
 
   return (
-    <div className="bg-[#1a1818] text-[#ece7e1] w-full h-screen flex justify-start items-start md:items-center pt-28 md:pt-0 px-8 md:px-20">
+    <div className="bg-black text-white w-full h-screen flex justify-start items-start md:items-center pt-28 md:pt-0 px-8 md:px-20">
       <div className="w-full xl1100:w-[50%] h-auto xl1100:h-full flex justify-start md:justify-center xl1100:justify-end items-end xl1100:items-center">
         <div className="w-full sm350:w-3/4 h-auto flex flex-col justify-center items-start gap-4">
           <div className="overflow-hidden sm:-ml-1 mb-8 sm500:mb-4 xl1100:-mb-[10%]">
@@ -23,7 +23,7 @@ const ContactPage = () => {
               Namaste
             </m.div>
           </div>
-          <div className="overflow-hidden xl1100:pt-10 -mt-10 relative z-30 bg-[#1a1818]">
+          <div className="overflow-hidden xl1100:pt-10 -mt-10 relative z-30 bg-black">
             <m.div
               initial={{ transform: "translateY(100%)" }}
               animate={{ transform: "translateY(0%)" }}

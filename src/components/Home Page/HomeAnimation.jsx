@@ -12,7 +12,7 @@ const HomeAnimation = () => {
           delay: 0.1,
           ease: "easeIn",
         }}
-        className="absolute top-0 left-0 w-full h-full bg-[#1a1818] z-50"
+        className="absolute top-0 left-0 w-full h-full bg-black z-50"
       ></m.div>
       <m.div
         initial={{ transform: "translateY(30%)" }}
@@ -22,7 +22,7 @@ const HomeAnimation = () => {
           delay: 0.1,
           ease: "ease",
         }}
-        className="absolute top-0 left-0 w-full h-full bg-[#1a1818] z-50"
+        className="absolute top-0 left-0 w-full h-full bg-black z-50"
       ></m.div>
     </div>
   );

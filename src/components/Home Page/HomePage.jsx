@@ -46,7 +46,7 @@ const HomePage = () => {
               }}
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7 "
             >
-              Passionate about solving problems and making websites :)
+              Passionate about solving problems and making complex production standard websites .
             </m.div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const WorkAnimation = () => {
           delay: 0.1,
           ease: "easeIn",
         }}
-        className="absolute top-0 left-0 w-full h-full bg-[#ece7e1] z-50"
+        className="absolute top-0 left-0 w-full h-full bg-white z-50"
       ></m.div>
       <m.div
         initial={{ transform: "translateY(-30%)" }}
@@ -22,7 +22,7 @@ const WorkAnimation = () => {
           delay: 0.1,
           ease: "ease",
         }}
-        className="absolute top-0 left-0 w-full h-full bg-[#ece7e1] z-50"
+        className="absolute top-0 left-0 w-full h-full bg-white z-50"
       ></m.div>
     </div>
   );
