@@ -2,7 +2,6 @@ import { motion as m } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useCursorContext } from "../../context/CursorContext";
 
-
 const GoodGroceriesPage = () => {
   const { mouseOverEvent, mouseOutEvent } = useCursorContext();
   return (
@@ -26,7 +25,7 @@ const GoodGroceriesPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white text-black w-full h-full flex flex-col justify-center items-center gap-16 sm350:gap-24 xl1100:gap-32 xxl:gap-48 mb-20 px-8 mt-0 sm350:mt-48 sm:mt-80 md:mt-16 xl1100:mt-24 ">
+      <div className="bg-white text-black w-full h-full flex flex-col justify-center items-center gap-16 sm350:gap-24 xl1100:gap-32 xxl:gap-48 pb-20 px-8 mt-0 sm350:mt-48 sm:mt-80 md:mt-16 xl1100:mt-24 ">
         {/* About the project */}
         <div className="overflow-hidden w-full flex justify-center items-center text-center">
           <m.div
@@ -122,7 +121,7 @@ const GoodGroceriesPage = () => {
             preferences.
           </div>
         </div>
-       
+
         {/* Process */}
         <div className="w-full sm350:w-[85%] md:w-[60%] xl1100:w-1/2 xl:w-[40%] flex flex-col gap-8">
           <div className="Avegas-Royale-Regular ml-[5%] text-[6vw] sm350:text-[4.5vw] sm500:text-[3.5vw] md:text-[2.5vw]">

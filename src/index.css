@@ -54,6 +54,12 @@
   cursor: none;
 }
 
+body,
+html {
+  background-color: black;
+  min-height: 100dvh;
+}
+
 body {
   overflow-x: hidden;
   background-color: white;
