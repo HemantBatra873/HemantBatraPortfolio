@@ -22,7 +22,7 @@ const AgraserPage = () => {
               }}
               className="Avegas-Royale-Regular text-[13vw] md:text-[11vw] flex justify-center items-center"
             >
-              Agraser AI
+              Cooperative
             </m.div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const AgraserPage = () => {
             }}
             className="w-[100%] sm500:w-[70%] md:w-[45%] Avegas-Royale-Regular text-[5vw] sm350:text-[4vw] sm500:text-[3.25vw] sm:text-[3vw] md:text-[2.5vw] leading-[120%]"
           >
-            Agraser is an API based MERN stack AI chat assistant .
+            Cooperative is an API driven MERN stack AI chat assistant .
           </m.div>
         </div>
         {/* Role / Responsibilities / GitHub / URL */}
@@ -68,13 +68,13 @@ const AgraserPage = () => {
                 GitHub
               </div>
               <Link
-                to="https://github.com/HemantBatra873/agraser_backend"
+                to="https://github.com/HemantBatra873/Cooperative_Client"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
                 className="hover:opacity-50 duration-300 ease-in-out "
               >
-                HemantBatra873/agraser
+                Cooperative_Client
               </Link>
             </div>
             <div className="w-1/2 flex flex-col gap-4">
@@ -82,13 +82,13 @@ const AgraserPage = () => {
                 URL
               </div>
               <Link
-                to="https://agraser.vercel.app/"
+                to="https://cooperativeai.vercel.app/"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
                 className="hover:opacity-50 duration-300 ease-in-out"
               >
-                https://agraser.vercel.app/
+                https://cooperativeai.vercel.app/
               </Link>
             </div>
           </div>
@@ -96,7 +96,7 @@ const AgraserPage = () => {
         {/* First Mockup */}
         <div className="w-full sm500:w-[85%] md:w-[65%] h-[18.5rem] sm350:h-[20rem] sm500:h-[25rem] sm:h-[25rem] lg:h-[30rem] xl1100:h-[40rem] xxl:h-[50rem] rounded-[1vw] overflow-hidden">
           <img
-            src="./agraserMockup.png"
+            src="./cooperativeMockup.png"
             alt=""
             className="w-full h-full object-cover animate-panImage2 hover:scale-150 sm500:hover:scale-125 duration-300 ease-in-out"
           />
@@ -154,11 +154,13 @@ const AgraserPage = () => {
             Outcome
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-          Achieved high user engagement through insightful and accurate AI-generated responses.
-          Ensured user data protection and secure access with JWT authentication and bcrypt encryption.
+            Achieved high user engagement through insightful and accurate
+            AI-generated responses. Ensured user data protection and secure
+            access with JWT authentication and bcrypt encryption.
             <br />
             <br />
-            Provided a consistent and smooth experience across all devices, enhancing accessibility and usability.
+            Provided a consistent and smooth experience across all devices,
+            enhancing accessibility and usability.
           </div>
         </div>
         {/* Check it out button */}
@@ -167,13 +169,13 @@ const AgraserPage = () => {
             Check it out.
           </div>
           <Link
-            to="https://agraser.vercel.app/"
+            to="https://cooperativeai.vercel.app/"
             target="_blank"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
             className="bg-black text-white w-auto py-4 px-8 md:px-10 Avegas-Royale-Regular text-[2.5vw] md:text-[1vw] text-center rounded-full tracking-wider hover:opacity-50 duration-300 ease-in-out"
           >
-            Agraser
+            Cooperative
           </Link>
         </div>
       </div>

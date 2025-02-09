@@ -28,8 +28,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/work" element={<Work />} />
             <Route path="/gruham" element={<GoodGroceries />} />
-            <Route path="/buy-me-a-chai" element={<BuyMeAChai />} />
-            <Route path="/agraser" element={<Agraser />} />
+            <Route path="/radius" element={<BuyMeAChai />} />
+            <Route path="/cooperative" element={<Agraser />} />
           </Routes>
         </AnimatePresence>
       </CursorContextProvider>

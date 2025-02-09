@@ -29,27 +29,33 @@ const AboutPage = () => {
               I'm Hemant Batra. A Full Stack developer and DSA practitioner.
             </div>
             <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7 mt-4">
-              I have a deep passion for technology, always eager to explore and innovate in the 
-              ever-evolving digital landscape. My fascination with the Full stack web developement
-              allows me to create dynamic and robust web applications, blending my love for both 
-              development and cutting-edge tech.
+              I have a deep passion for technology, always eager to explore and
+              innovate in the ever-evolving digital landscape. My fascination
+              with the Full stack web developement allows me to create dynamic
+              and robust web applications, blending my love for both development
+              and cutting-edge tech.
             </div>
             <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7">
-              What excites me most about being a Web Developer is the opportunity to design impactful 
-              solutions that address real-world challenges. It’s more than just creating buttons and 
-              websites; it’s about developing experiences that truly assist people, whether it’s in 
-              online marketing or e-commerce. By understanding customer needs and identifying the 
-              right problems to solve, I can quickly deliver effective solutions and refine them over
-              time. This cycle of continuous learning and improvement is essential to outstanding 
-              web development. My passion for technology and the MERN stack fuels my drive to innovate
-              and enhance the digital experiences I create.
+              What excites me most about being a Web Developer is the
+              opportunity to design impactful solutions that address real-world
+              challenges. It’s more than just creating buttons and websites;
+              it’s about developing experiences that truly assist people,
+              whether it’s in online marketing or e-commerce. By understanding
+              customer needs and identifying the right problems to solve, I can
+              quickly deliver effective solutions and refine them over time.
+              This cycle of continuous learning and improvement is essential to
+              outstanding web development. My passion for technology fuels my
+              drive to innovate and enhance the digital experiences I create.
             </div>
             <div className="w-[85%] Avegas-Royale-Regular uppercase text-xl sm500:text-2xl sm500 mt-4 ml-[4%]">
               skills
             </div>
             <div className="w-[85%] text-xs leading-5 sm500:text-sm sm500:leading-7">
-              React / JavaScript / Github / Git / Tailwind / CSS3 / HTML5 /
-              Java / NodeJS / MongoDB / ExpressJS / C++ / Bootstrap / MUI / Postman / Insomnia 
+              React / NextJS / Python / JavaScript / Github / Git / Tailwind /
+              CSS3 / HTML5 / Java / NodeJS / MongoDB / ExpressJS / C++ /
+              Bootstrap / MUI / Shadcn / Vercel / Postman / Insomnia / Operating
+              Systems / Computer Networks / DBMS / OOPS / Data Structures /
+              Algorithms / SQL / PostgreSQL / MongoDB / Firebase
             </div>
             <a
               onMouseOver={mouseOverEvent}
@@ -70,6 +76,7 @@ const AboutPage = () => {
                 <div>Maharaja Surajmal Institute of Technology</div>
                 <div>Bachelor of Technology , Computer Science</div>
                 <div>(2022 - 2026)</div>
+                <div>CGPA - 9.15</div>
               </div>
             </div>
             <Link

@@ -1,4 +1,4 @@
-import React, { useEffect, } from "react";
+import React, { useEffect } from "react";
 import { motion as m } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useCursorContext } from "../../context/CursorContext";
@@ -35,9 +35,7 @@ const BuyMeAChaiPage = () => {
               }}
               className="Avegas-Royale-Regular text-[13vw] md:text-[11vw] flex justify-center items-center flex-col"
             >
-               
-              <div className="Avegas-Royale-Regular -mb-[5%]">Buy </div>
-              <div className="Avegas-Royale-Regular">me a Chai</div>
+              <div className="Avegas-Royale-Regular">Radius</div>
             </m.div>
           </div>
         </div>
@@ -55,8 +53,8 @@ const BuyMeAChaiPage = () => {
             }}
             className="w-[100%] sm500:w-[70%] md:w-[45%] Avegas-Royale-Regular text-[5vw] sm350:text-[4vw] sm500:text-[3.25vw] sm:text-[3vw] md:text-[2.5vw] leading-[120%]"
           >
-            Buy me a chai is a full-stack micro-patronage website . Built with 
-            NextJS , MongoDB
+            RadiusLMS – AI-Powered Learning Management System built with NextJS,
+            PostgreSQL, Drizzle ORM, Innjest serverless and more.
           </m.div>
         </div>
         {/* Role / Responsibilities / GitHub / URL */}
@@ -73,9 +71,8 @@ const BuyMeAChaiPage = () => {
                 RESPONSIBILITIES
               </div>
               <div>
-                Structure & Design / Frontend / Backend /
-                Authentication / Database Management /
-                Deployment
+                Structure & Design / Frontend / Backend / Authentication /
+                Database Management / Deployment
               </div>
             </div>
           </div>
@@ -85,13 +82,13 @@ const BuyMeAChaiPage = () => {
                 GitHub
               </div>
               <Link
-                to="https://github.com/HemantBatra873"
+                to="https://github.com/HemantBatra873/Radius-LMS"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
                 className="hover:opacity-50 duration-300 ease-in-out"
               >
-                github/HemantBatra873
+                HemantBatra873/Radius-LMS
               </Link>
             </div>
             <div className="w-1/2 flex flex-col gap-4">
@@ -99,13 +96,13 @@ const BuyMeAChaiPage = () => {
                 URL
               </div>
               <Link
-                to="https://github.com/HemantBatra873"
+                to="https://radius-lms.vercel.app/"
                 target="_blank"
                 onMouseOver={mouseOverEvent}
                 onMouseOut={mouseOutEvent}
                 className="hover:opacity-50 duration-300 ease-in-out"
               >
-                coming soon
+                https://radius-lms.vercel.app/
               </Link>
             </div>
           </div>
@@ -113,7 +110,7 @@ const BuyMeAChaiPage = () => {
         {/* First Mockup */}
         <div className="w-full sm500:w-[85%] md:w-[65%] h-[12.5rem] sm350:h-[15rem] sm500:h-[20rem] sm:h-[25rem] lg:h-[30rem] xl1100:h-[40rem] xxl:h-[50rem] rounded-[1vw] overflow-hidden">
           <img
-            src="./coming_soon_landscape.jpg"
+            src="./radiusMockup.png"
             alt=""
             className="w-full h-full object-cover animate-panImage hover:scale-125 duration-300 ease-in-out"
           />
@@ -124,7 +121,22 @@ const BuyMeAChaiPage = () => {
             Challenge
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Coming soon  
+            Students struggle to find relevant study materials efficiently.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Manual note-taking, flashcard creation, and quiz preparation are
+            time-consuming.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Existing learning platforms lack real-time AI-driven customization.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Managing user authentication and secure access to study materials is
+            complex.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Ensuring seamless performance while handling dynamic content
+            generation.
           </div>
         </div>
         {/* Process */}
@@ -133,7 +145,24 @@ const BuyMeAChaiPage = () => {
             Process
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Coming soon
+            Built the frontend using Next.js, Tailwind CSS, and Shadcn UI for a
+            smooth user experience.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Integrated Gemini 2.0 Flash API to generate study materials
+            instantly.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Utilized Inngest serverless functions for real-time AI-powered
+            automation.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Implemented PostgreSQL (NeonDB) with Drizzle ORM for efficient data
+            management.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Secured authentication with Clerk and enabled seamless payments via
+            Stripe.
           </div>
         </div>
         <div className="w-full sm350:w-[85%] md:w-[60%] xl1100:w-1/2 xl:w-[40%] flex flex-col gap-8">
@@ -141,7 +170,24 @@ const BuyMeAChaiPage = () => {
             Outcome
           </div>
           <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
-            Coming soon
+            Instant Study Material Generation – Users receive customized notes,
+            flashcards, and quizzes in seconds.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Scalable & Efficient – Optimized database and serverless
+            architecture ensure high performance.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Secure & Hassle-Free Access – Authentication and payments are
+            streamlined for a seamless experience.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            User-Friendly Interface – Modern UI ensures intuitive navigation and
+            accessibility.
+          </div>
+          <div className="text-[10px] sm500:text-xs xl1100:text-sm xl:text-base">
+            Live & Open-Source – Deployed successfully with an accessible
+            codebase for further improvements.
           </div>
         </div>
         {/* Check it out button */}
@@ -150,13 +196,13 @@ const BuyMeAChaiPage = () => {
             Check it out.
           </div>
           <Link
-            to="https://github.com/HemantBatra873"
+            to="https://radius-lms.vercel.app/"
             target="_blank"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
             className="bg-black text-white w-auto py-4 px-8 md:px-10 Avegas-Royale-Regular text-[2.5vw] md:text-[1vw] text-center rounded-full tracking-wider hover:opacity-50 duration-300 ease-in-out"
           >
-            Coming soon
+            Radius
           </Link>
         </div>
       </div>

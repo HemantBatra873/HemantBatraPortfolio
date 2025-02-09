@@ -34,8 +34,8 @@ const WorkPage = () => {
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7"
             >
               This is showcase of my best work in a variaty of projects
-              including Micro-patronage website, Real Estate website and API
-              driven SaaS AI website.
+              including Real Estate website, AI powered LMS and API driven SaaS
+              AI application.
             </m.div>
           </div>
           <div className="overflow-hidden">
@@ -48,9 +48,9 @@ const WorkPage = () => {
               }}
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7"
             >
-              The world of web development is constantly evolving
-              and so are my skills over the last 2 years. I'm still learning and
-              gaining new skills every day.
+              The world of web development is constantly evolving and so are my
+              skills over the last 2 years. I'm still learning and gaining new
+              skills every day.
             </m.div>
           </div>
         </div>
@@ -83,49 +83,49 @@ const WorkPage = () => {
               <div className="text-[11px] md:text-xs font-medium uppercase">
                 real estate website
               </div>
-              <div className="bg-white text-black px-4 py-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
-                new
-              </div>
             </div>
           </Link>
           <Link
-            to="/buy-me-a-chai"
-            title="Buy me a chai"
+            to="/radius"
+            title="Radius"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
             className="w-full md:w-[90%] flex flex-col gap-2  hover:opacity-50 duration-300 ease-in-out"
           >
             <div className="uppercase text-[12vw] sm500:text-[9vw] xl1100:text-[6vw] tracking-tighter">
               <div className="Avegas-Royale-Regular leading-[100%] pl-[5%]">
-                Buy me a chai
+                Radius
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 md:gap-4 ml-[2%]">
               <div className="w-2 h-[1px] bg-white"></div>
               <div className="text-[11px] md:text-xs font-medium uppercase">
-                micro-patronage website
+                AI powered LMS
               </div>
               <div className="bg-white text-black px-4 pt-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
-                upcoming
+                Just Dropped
               </div>
             </div>
           </Link>
           <Link
-            to="/agraser"
-            title="Agraser"
+            to="/cooperative"
+            title="Cooperative"
             onMouseOver={mouseOverEvent}
             onMouseOut={mouseOutEvent}
             className="w-full md:w-[90%] flex flex-col gap-2 hover:opacity-50 duration-300 ease-in-out"
           >
             <div className="uppercase text-[12vw] sm500:text-[9vw] xl1100:text-[6vw] tracking-tighter">
               <div className="Avegas-Royale-Regular leading-[100%] pl-[5%]">
-                Agraser
+                Cooperative
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 md:gap-4 ml-[2%]">
               <div className="w-2 h-[1px] bg-white"></div>
               <div className="text-[11px] md:text-xs font-medium uppercase">
-                 Api driven SaaS website
+                Api driven SaaS Application
+              </div>
+              <div className="bg-white text-black px-4 py-1.5 pb-[5px] text-[11px] md:text-xs uppercase rounded-2xl font-semibold">
+                v.2.0.1
               </div>
             </div>
           </Link>

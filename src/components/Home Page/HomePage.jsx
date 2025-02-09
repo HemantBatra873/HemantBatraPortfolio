@@ -33,7 +33,7 @@ const HomePage = () => {
               }}
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7"
             >
-              Full-Stack Developer and problem solver.
+              Software Developer.
             </m.div>
           </div>
           <div className="overflow-hidden">
@@ -46,7 +46,8 @@ const HomePage = () => {
               }}
               className="text-[12px] leading-5 sm500:text-[14px] sm500:leading-7 "
             >
-              Passionate about solving problems and making complex production standard websites .
+              Passionate about solving problems and developing production
+              standard applications .
             </m.div>
           </div>
         </div>
